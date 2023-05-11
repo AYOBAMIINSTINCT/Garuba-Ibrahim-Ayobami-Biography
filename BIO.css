@@ -1,0 +1,75 @@
+/* Set body background color */
+body {
+  background-color: #e3f2f9;
+}
+
+/* Center the content of the page */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the heading and subheading */
+h1, h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: black;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Style the paragraph text */
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: O.5em;
+  line-height: 1.5em;
+  color: black;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+/* Style the image */
+img {
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+/* Style the update button */
+button {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 10px 20px;
+  margin-top: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff8d7e;
+}
+
+/* Style the text that will be updated */
+#text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: black;
+  margin-top: 30px;
+  text-align: center;
+}
